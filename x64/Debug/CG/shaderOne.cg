@@ -1,0 +1,94 @@
+
+struct VertexDataInput {
+	float4 vertex: POSITION;
+	float3 normal: NORMAL;
+	float3 color: COLOR;
+};
+
+struct VertexDataOutput {
+	float4 projv  : POSITION;
+	float3 normal : TEXCOORD0;
+	float3 xyz : TEXCOORD1;
+	float3 color: COLOR;
+};
+
+struct PixelDataOutput {
+	float3 color: COLOR;
+};
+
+
+// seems that geometry shaders dont work? Thats odd...
+VertexDataOutput VertexMain(VertexDataInput vdi, uniform float4x4 modelViewProj,
+	uniform float morphRadius, uniform float3 morphCenter, uniform float morphFraction) {
+
+  VertexDataOutput ret;
+  ret.projv = mul(modelViewProj, vdi.vertex); 
+  ret.normal = vdi.normal;
+  ret.xyz = vdi.vertex.xyz;
+  ret.color = vdi.color;
+  return ret;
+
+}
+
+
+PixelDataOutput FragmentMain(
+  VertexDataOutput pdi, 
+  uniform float3 eye,
+  uniform float3 R0,
+  uniform float3 R1,
+  uniform float3 R2,
+  uniform float3 R3,
+  uniform sampler2D texture,
+  uniform samplerCUBE cubeMapTexture
+) {
+
+  PixelDataOutput ret;
+  ret.color = pdi.color;
+
+  float3 eyeToPoint = normalize(pdi.xyz - eye);
+  float3 reflectedRay = normalize(reflect(eyeToPoint, normalize(pdi.normal)));
+
+  float3 billboardNormal = normalize(cross( (R1 - R0), (R3 - R0) ));
+  
+  float distanceT = dot((R0 - pdi.xyz), billboardNormal) / dot(reflectedRay, billboardNormal);
+
+  // if behind normal, ignore
+  if (distanceT < 0) {
+    // no intersection
+    ret.color = pdi.color;
+    // ret.color = texCUBE(cubeMapTexture, reflectedRay);
+    return ret;
+  }
+
+  // otherwise want to solve for texture coordinates
+  float3 intersectionPoint = pdi.xyz + reflectedRay * distanceT;
+  float3 axisS = normalize(R3 - R0);
+  // float s = (intersectionPoint - R0) * axisS / length(R3 - R0);
+  float s = dot((intersectionPoint - R0), axisS) / distance(R3, R0);
+  // float s = ((intersectionPoint - R0) * axisS) / 25;
+  float3 axisT = normalize(R1 - R0);
+  float t = dot((intersectionPoint - R0), axisT) / distance(R1, R0);
+  // float t = ((intersectionPoint - R0) * axisT) / 25;
+  // float t = (intersectionPoint - R0) * axisT / length(R1 - R0);
+
+  if (s < 0 || t < 0 || s >= 1 || t >= 1) {
+    // out of bounds
+    ret.color = pdi.color;
+    // ret.color = texCUBE(cubeMapTexture, reflectedRay);
+    return ret;
+  }
+
+  
+
+  float2 textureCoordinate = float2(s, t); 
+  ret.color = tex2D(texture, textureCoordinate);
+
+  if (ret.color.r == 1 && ret.color.g == 1 && ret.color.b == 1) {
+    // background color
+    ret.color = pdi.color;
+    // ret.color = texCUBE(cubeMapTexture, reflectedRay);
+  }
+
+  return ret;
+
+}

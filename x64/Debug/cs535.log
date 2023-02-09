@@ -1,0 +1,306 @@
+﻿  cubeMap.cpp
+  framebuffer.cpp
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(327,34): warning C4305: 'initializing': truncation from '__int64' to 'unsigned int'
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(327,23): warning C4309: 'initializing': truncation of constant value
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(338,9): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(339,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(340,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(341,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(345,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(345,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(360,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(361,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(362,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(363,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(364,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(365,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(371,9): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(372,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(373,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(374,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(381,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(381,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(392,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(393,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(429,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(429,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(441,9): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(442,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(443,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(444,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(451,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(451,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(461,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(462,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(516,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(516,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(529,9): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(530,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(531,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(532,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(539,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(539,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(548,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(549,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(606,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(606,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(624,9): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(625,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(626,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(627,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(634,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(634,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(643,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(644,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(713,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(713,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(729,9): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(730,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(731,11): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(732,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(739,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(739,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(748,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(749,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(845,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\framebuffer.cpp(845,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  gui.cxx
+  ppc.cpp
+  scene.cpp
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(341,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(342,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(343,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(344,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(377,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(378,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(379,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(380,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(510,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(511,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  tm.cpp
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(668,10): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(669,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(670,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(671,13): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(675,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(675,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(685,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(686,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(846,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(846,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(920,10): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(921,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(922,12): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(923,13): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(927,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(927,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(931,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(932,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(983,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\tm.cpp(983,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\scene.cpp(646): warning C4715: 'Scene::LoadCameraPathFromFile': not all control paths return a value
+fltkd.lib(Fl_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Group.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Group.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Double_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Double_Window.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Button.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Widget.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Widget.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Window_shape.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window_shape.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_get_system_colors.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_get_system_colors.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_utf.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_utf.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(screen_xywh.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(screen_xywh.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_lock.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_lock.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_compose.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_compose.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_labeltype.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_labeltype.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Image.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Tooltip.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Tooltip.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_color.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_color.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Preferences.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Preferences.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_rect.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_rect.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Device.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Device.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_read_image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_read_image.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_font.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_font.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_abort.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_abort.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Window_fullscreen.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window_fullscreen.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_dnd.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_dnd.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_utf8.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_utf8.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_boxtype.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_boxtype.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Input_.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Input_.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Input.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Input.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Menu_.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Menu_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_Button.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Repeat_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Repeat_Button.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Overlay_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Overlay_Window.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_shortcut.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_shortcut.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Bitmap.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Bitmap.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_plastic.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_plastic.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_gtk.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_gtk.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_gleam.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_gleam.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Pixmap.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Pixmap.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(flstring.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(flstring.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Tiled_Image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Tiled_Image.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_round_box.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_round_box.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_draw.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_draw.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_draw_pixmap.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_draw_pixmap.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Menu_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_Window.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(filename_match.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(filename_match.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(numericsort.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(numericsort.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(filename_list.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(filename_list.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(vsnprintf.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(vsnprintf.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_line_style.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_line_style.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_vertex.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_vertex.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_curve.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_curve.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_arc.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_arc.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_arci.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_arci.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_draw_image.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_draw_image.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(case.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(case.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(is_spacing.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(is_spacing.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_cursor.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_cursor.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_ask.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_ask.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Menu.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Menu_add.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Menu_add.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(fl_symbols.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(fl_symbols.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Single_Window.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Single_Window.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(scandir.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(scandir.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_grab.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_grab.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Box.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Box.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Return_Button.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Return_Button.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkd.lib(Fl_Window_hotspot.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_Window_hotspot.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+fltkgld.lib(Fl_Gl_Window.obj) : warning LNK4099: PDB 'vc141.pdb' was not found with 'fltkgld.lib(Fl_Gl_Window.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\vc141.pdb'; linking object as if no debug info
+fltkgld.lib(gl_start.obj) : warning LNK4099: PDB 'vc141.pdb' was not found with 'fltkgld.lib(gl_start.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\vc141.pdb'; linking object as if no debug info
+fltkgld.lib(Fl_Gl_Choice.obj) : warning LNK4099: PDB 'vc141.pdb' was not found with 'fltkgld.lib(Fl_Gl_Choice.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\vc141.pdb'; linking object as if no debug info
+fltkgld.lib(Fl_Gl_Device_Plugin.obj) : warning LNK4099: PDB 'fltkgl.pdb' was not found with 'fltkgld.lib(Fl_Gl_Device_Plugin.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltkgl.pdb'; linking object as if no debug info
+fltkgld.lib(gl_draw.obj) : warning LNK4099: PDB 'vc141.pdb' was not found with 'fltkgld.lib(gl_draw.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\vc141.pdb'; linking object as if no debug info
+fltkd.lib(Fl_arg.obj) : warning LNK4099: PDB 'fltk.pdb' was not found with 'fltkd.lib(Fl_arg.obj)' or at 'C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\fltk.pdb'; linking object as if no debug info
+     Creating library C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\CS334.lib and object C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\CS334.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  cs535.vcxproj -> C:\Users\kabir\Documents\Code\graphicsClass\graphicsHomework8\x64\Debug\CS334.exe

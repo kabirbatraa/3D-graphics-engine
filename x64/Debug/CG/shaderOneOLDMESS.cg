@@ -1,0 +1,283 @@
+
+// struct VertexDataInput {
+// 	float4 vertex: POSITION;
+// 	float3 color: COLOR;
+// };
+struct VertexDataInput {
+	float4 vertex: POSITION;
+	float3 normal: NORMAL;
+	float3 color: COLOR;
+};
+
+
+// struct VertexDataOutput {
+// 	float4 projv  : POSITION;
+// 	float3 color: COLOR;
+// };
+struct VertexDataOutput {
+	float4 projv  : POSITION;
+	// float4 projvBean  : TEXCOORD2;
+	float3 normal : TEXCOORD0;
+	float3 xyz : TEXCOORD1;
+	float3 color: COLOR;
+};
+
+struct PixelDataOutput {
+	float3 color: COLOR;
+};
+
+// old function:
+// VertexDataOutput VertexMain(VertexDataInput vdi, 
+//   uniform float4x4 modelViewProj) {
+
+//   VertexDataOutput ret;
+
+//   ret.projv = mul(modelViewProj, vdi.vertex);
+//   ret.color = vdi.color;
+//   return ret;
+
+// }
+
+// function with morphing
+// it seems that geometry shaders just dont work????/ sadge professor said they should work so idk whatever not worth my time rn
+VertexDataOutput VertexMain(VertexDataInput vdi, uniform float4x4 modelViewProj,
+	uniform float morphRadius, uniform float3 morphCenter, uniform float morphFraction) {
+
+  VertexDataOutput ret;
+  ret.projv = mul(modelViewProj, vdi.vertex); 
+  ret.normal = vdi.normal;
+  ret.xyz = vdi.vertex.xyz;
+  ret.color = vdi.color;
+  return ret;
+
+
+
+
+  /*
+
+  // float3 ray = normalize(vdi.vertex.xyz - morphCenter);
+  // float3 spherePoint = morphCenter + ray*morphRadius;
+  // float3 morphedVertex = vdi.vertex.xyz + (spherePoint-vdi.vertex.xyz)*morphFraction;
+
+  VertexDataOutput ret;
+  // ret.projv = mul(modelViewProj, float4(morphedVertex, 1.0f));
+  ret.projv = mul(modelViewProj, vdi.vertex); 
+  // ret.projvBean = vdi.vertex;
+  // ret.projvBean = mul(modelViewProj, vdi.vertex);
+  ret.normal = vdi.normal;
+
+
+
+  // ret.xyz = vdi.vertex.xyz;
+  // ret.xyz = morphedVertex;
+
+  ret.xyz = vdi.vertex.xyz;
+  // ret.xyz.x = 1;
+
+
+  ret.color = vdi.color;
+  // ret.color.r = morphFraction; // this line of code proves that the morphed fracion exists
+  return ret;
+
+  */
+
+}
+
+
+/*
+PixelDataOutput FragmentMain(VertexDataOutput pdi, uniform float bwFraction) {
+
+  // variables we have:
+  // pdi color
+  // normal
+  // xyz (vertex)
+  // projected v, which seems to be u v w.. we cannot use this
+  // 
+
+  PixelDataOutput ret;
+  ret.color = pdi.color;
+  float bw = (ret.color.r+ret.color.g+ret.color.b)/3.0f;
+  // ret.color.r = ret.color.r + (bw-ret.color.r)*bwFraction;
+  // ret.color.g = ret.color.g + (bw-ret.color.g)*bwFraction;
+  // ret.color.b = ret.color.b + (bw-ret.color.b)*bwFraction;
+
+  // ret.color.r = bw;
+  // ret.color.g = bw;
+  // ret.color.b = bw;
+  // ret.color.r = 13.7474f;
+  return ret;
+
+  //PSEUDOCODE for Option 1 of A9; reflection fragment shader is called for reflective object
+  // Fragment Shader Input Parameters: uniform user eye, normal, triangle 3D point,
+  //		uniform sprite rectangle corners, uniform texture of sprite
+  // Fragment Shader Output: color (of reflective object)
+  // 1. compute eye ray er
+  // 2. reflect er over normal to rr
+  // 3. intersect rr with rectangle
+  // 4. if no intersection, return diffuse color
+  // 5. if intersection occurs over background, return diffuse color
+  // 6. else (valid intersection) return texture color at intersection point
+
+}
+*/
+
+PixelDataOutput FragmentMain(
+  VertexDataOutput pdi, 
+  uniform float3 eye,
+  uniform float3 R0,
+  uniform float3 R1,
+  uniform float3 R2,
+  uniform float3 R3,
+  uniform sampler2D texture,
+  uniform samplerCUBE cubeMapTexture
+) {
+
+  /* variables we have:
+  pdi color
+  normal
+  xyz (vertex) (aka tiangle 3d point)
+  projected v, which seems to be not u v w :c maybe its like the vertex from left to right or smth
+  */
+
+
+  //PSEUDOCODE for Option 1 of A9; reflection fragment shader is called for reflective object
+  // Fragment Shader Input Parameters: uniform user eye, normal, triangle 3D point,
+  //		uniform sprite rectangle corners, uniform texture of sprite
+  // Fragment Shader Output: color (of reflective object)
+  // 1. compute eye ray er
+  // 2. reflect er over normal to rr
+  // 3. intersect rr with rectangle
+  // 4. if no intersection, return diffuse color
+  // 5. if intersection occurs over background, return diffuse color
+  // 6. else (valid intersection) return texture color at intersection point
+
+
+  PixelDataOutput ret;
+  ret.color = pdi.color;
+
+  // okay so i have the eye
+  // and i have the vertex
+  // and i can calculate the reflected ray
+  // and i can calculate the four corners of the generated image of the second teapot
+  // and i can generate the texture of that teapot
+  // and i can load that texture using glBindTexture right before rendering this teapot
+  // this should make it so that sampler2D texture contains the texture somehow?
+  // although maybe we actually want the corners + the texture through cg parameters? how would i pass in the texture though? not sure...
+  // do we just hope that the texture automatically knows who it should be?
+
+  // V3 n = finalNormal; // pdi.normal
+  // V3 eyePosition = ppc->C; // eye
+  // V3 currentPoint(u, v, oodAtPoint); // we dont need this
+  // V3 unprojectedPoint; ppc->Unproject(currentPoint, unprojectedPoint); // pdi.xyz
+  // V3 thisPointPosition = unprojectedPoint; // pdi.xyz lol
+
+  // float3 colorFromCubeMap = tex2D(texture, reflectedVector);// unsigned int colorFromCubeMap = cubeMap->GetColor(reflectedVector);
+  // i just cant seem to get cube maps to work :c
+
+
+  /*
+  float3 eyeToPoint = normalize(pdi.xyz - eye); // V3 eyeToPoint = thisPointPosition - eyePosition;
+  // float3 eyeToPoint = eye - pdi.xyz; // V3 eyeToPoint = thisPointPosition - eyePosition;
+  float3 verticalComponent = pdi.normal * (eyeToPoint * pdi.normal); // V3 verticalComponent = n * (eyeToPoint * n); // note that this is going in the oposite direction of the normal
+  float3 reflectedVector = eyeToPoint - verticalComponent * 2; // V3 reflectedVector = eyeToPoint - verticalComponent * 2;
+  reflectedVector = normalize(reflectedVector); // reflectedVector = reflectedVector.UnitVector();
+  */
+
+  // didnt know there was a reflect function
+  float3 eyeToPoint = normalize(pdi.xyz - eye);
+  // ret.color.r = (eyeToPoint.x + 1) / 2;
+  // ret.color.g = (eyeToPoint.y + 1) / 2;
+  // ret.color.b = (eyeToPoint.z + 1) / 2;
+  // return ret;
+
+  float3 reflectedRay = normalize(reflect(eyeToPoint, normalize(pdi.normal)));
+  // reflectedRay.y = -reflectedRay.y;
+
+  float3 billboardNormal = normalize(cross( (R1 - R0), (R3 - R0) ));
+  // ret.color.r = (billboardNormal.x + 1) / 2;
+  // ret.color.g = (billboardNormal.y + 1) / 2;
+  // ret.color.b = (billboardNormal.z + 1) / 2;
+
+  // plane equation
+    // (intersectionPoint - R0) * billboardNormal = 0
+    // pdi.xyz + (reflectedRay)distance = intersectionPoint
+
+  float distanceT = dot((R0 - pdi.xyz), billboardNormal) / dot(reflectedRay, billboardNormal);
+  // float distanceT = (R0 * billboardNormal - pdi.xyz * billboardNormal) / (reflectedRay * billboardNormal);
+
+  // ret.color.r = (distanceT + 500) / 1000;
+  // if (30 < distanceT && distanceT < 70) {
+  //   ret.color.r = 0;
+  //   ret.color.g = 1;
+  //   ret.color.b = 1;
+  // }
+
+  // ret.color.r = (pdi.xyz.x + 100) / 200;
+  // ret.color.g = (pdi.xyz.y + 100) / 200;
+  // ret.color.b = (pdi.xyz.z + 100) / 200;
+  
+  // return ret;
+
+  // /*
+  // eyeToPoint.x = -eyeToPoint.x;
+  // eyeToPoint.z = -eyeToPoint.z;
+  // float3 reflectedVector = reflect(eyeToPoint, normalize(pdi.normal));
+
+  // ret.color = pdi.color;
+  // ret.color.r = (reflectedVector.x + 1) / 2;
+  // ret.color.g = (reflectedVector.y + 1) / 2;
+  // ret.color.b = (reflectedVector.z + 1) / 2;
+  // ret.color.r = (eyeToPoint.x + 1) / 2;
+  // ret.color.g = (eyeToPoint.y + 1) / 2;
+  // ret.color.b = (eyeToPoint.z + 1) / 2;
+  // return ret;
+
+  // /*
+
+  // normal of the square texture plane
+  // float3 billboardNorm = normalize(cross( (R1 - R0), (R3 - R0) ));
+
+  // float distanceT = ((R0 - pdi.xyz) * billboardNorm) / (reflectedVector * billboardNorm);
+  // if behind normal, ignore
+  if (distanceT < 0) {
+    // no intersection
+    ret.color = pdi.color;
+    // ret.color = texCUBE(cubeMapTexture, reflectedRay);
+    return ret;
+  }
+
+  // otherwise want to solve for texture coordinates
+  float3 intersectionPoint = pdi.xyz + reflectedRay * distanceT;
+  float3 axisS = normalize(R3 - R0);
+  // float s = (intersectionPoint - R0) * axisS / length(R3 - R0);
+  float s = dot((intersectionPoint - R0), axisS) / distance(R3, R0);
+  // float s = ((intersectionPoint - R0) * axisS) / 25;
+  float3 axisT = normalize(R1 - R0);
+  float t = dot((intersectionPoint - R0), axisT) / distance(R1, R0);
+  // float t = ((intersectionPoint - R0) * axisT) / 25;
+  // float t = (intersectionPoint - R0) * axisT / length(R1 - R0);
+
+  if (s < 0 || t < 0 || s >= 1 || t >= 1) {
+    // out of bounds
+    ret.color = pdi.color;
+    // ret.color = texCUBE(cubeMapTexture, reflectedRay);
+    return ret;
+  }
+
+  
+
+  // float2 textureCoordinate = float2(0.5, 0.5); 
+  float2 textureCoordinate = float2(s, t); 
+  ret.color = tex2D(texture, textureCoordinate);
+
+  if (ret.color.r == 1 && ret.color.g == 1 && ret.color.b == 1) {
+    // background color
+    ret.color = pdi.color;
+    // ret.color = texCUBE(cubeMapTexture, reflectedRay);
+  }
+
+  return ret;
+
+
+  // */
+}

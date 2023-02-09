@@ -1,0 +1,97 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0304
+header_name {.h}
+code_name {.cxx}
+class GUI {open
+} {
+  decl {\#include "scene.h"} {private local
+  }
+  Function {GUI()} {open
+  } {
+    Fl_Window uiw {
+      label GUI open
+      xywh {861 133 391 388} type Double visible
+    } {
+      Fl_Button {} {
+        label DBG
+        callback {DBG_cb()}
+        xywh {15 15 95 40} selection_color 72
+      }
+      Fl_Return_Button {} {
+        label NewButton
+        callback {NewButton_cb()}
+        xywh {15 75 110 100} align 128
+      }
+      Fl_Button {} {
+        label {light x+}
+        callback {lightxPlus_cb()}
+        xywh {255 20 60 25}
+      }
+      Fl_Button {} {
+        label {light x-}
+        callback {lightxMinus_cb()}
+        xywh {190 20 64 25}
+      }
+      Fl_Button {} {
+        label {light y-}
+        callback {lightyMinus_cb()}
+        xywh {190 45 64 25}
+      }
+      Fl_Button {} {
+        label {light y+}
+        callback {lightyPlus_cb()}
+        xywh {255 45 60 25}
+      }
+      Fl_Button {} {
+        label {light z-}
+        callback {lightzMinus_cb()}
+        xywh {190 70 64 25}
+      }
+      Fl_Button {} {
+        label {light z+}
+        callback {lightzPlus_cb()}
+        xywh {255 70 60 25}
+      }
+    }
+  }
+  Function {} {open
+  } {
+    code {scene = new Scene;} {}
+  }
+  Function {show()} {open
+  } {
+    code {uiw->show();} {}
+  }
+  Function {DBG_cb()} {open
+  } {
+    code {scene->DBG();} {}
+  }
+  Function {NewButton_cb()} {open
+  } {
+    code {scene->NewButton();} {}
+  }
+  Function {lightxMinus_cb()} {open
+  } {
+    code {scene->TranslateLight(-1, 0, 0);} {}
+  }
+  Function {lightyMinus_cb()} {open
+  } {
+    code {scene->TranslateLight(0, -1, 0);} {}
+  }
+  Function {lightzMinus_cb()} {open
+  } {
+    code {scene->TranslateLight(0, 0, -1);} {}
+  }
+  Function {lightxPlus_cb()} {open
+  } {
+    code {scene->TranslateLight(1, 0, 0);} {}
+  }
+  Function {lightyPlus_cb()} {open
+  } {
+    code {scene->TranslateLight(0, 1, 0);} {}
+  }
+  Function {lightzPlus_cb()} {open selected
+  } {
+    code {scene->TranslateLight(0, 0, 1);} {}
+  }
+}

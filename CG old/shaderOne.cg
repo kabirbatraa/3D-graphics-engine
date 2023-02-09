@@ -1,0 +1,49 @@
+
+struct VertexDataInput {
+	float4 vertex: POSITION;
+	float3 color: COLOR;
+};
+
+struct VertexDataOutput {
+	float4 projv  : POSITION;
+	float3 color: COLOR;
+};
+
+struct PixelDataOutput {
+	float3 color: COLOR;
+};
+
+VertexDataOutput VertexMain(VertexDataInput vdi, 
+  uniform float4x4 modelViewProj) {
+
+  VertexDataOutput ret;
+
+  ret.projv = mul(modelViewProj, vdi.vertex);
+  ret.color = vdi.color;
+  return ret;
+
+}
+
+PixelDataOutput FragmentMain(VertexDataOutput pdi, uniform float bwFraction) {
+
+  PixelDataOutput ret;
+  ret.color = pdi.color;
+  float bw = (ret.color.r+ret.color.g+ret.color.b)/3.0f;
+  ret.color.r = ret.color.r + (bw-ret.color.r)*bwFraction;
+  ret.color.g = ret.color.g + (bw-ret.color.g)*bwFraction;
+  ret.color.b = ret.color.b + (bw-ret.color.b)*bwFraction;
+  ret.color.r = 13.7474f;
+  return ret;
+
+  //PSEUDOCODE for Option 1 of A9; reflection fragment shader is called for reflective object
+  // Fragment Shader Input Parameters: uniform user eye, normal, triangle 3D point,
+  //		uniform sprite rectangle corners, uniform texture of sprite
+  // Fragment Shader Output: color (of reflective object)
+  // 1. compute eye ray er
+  // 2. reflect er over normal to rr
+  // 3. intersect rr with rectangle
+  // 4. if no intersection, return diffuse color
+  // 5. if intersection occurs over background, return diffuse color
+  // 6. else (valid intersection) return texture color at intersection point
+
+}
